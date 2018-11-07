@@ -8,7 +8,10 @@ public class Main {
 		porsche.setModel("carrera");
 		System.out.println(porsche.getModel());
 		System.out.println(porsche.getColor());
-
+		// what is naming convention for classes?
+		raceCar indyCar = new raceCar();
+		indyCar.vroomVroom();
+		indyCar.giveGas();
 	}
 
 }
